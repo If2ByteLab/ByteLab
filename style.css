@@ -1,18 +1,26 @@
 @charset "UTF-8";
+
+/* Estilos gerais */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
+/* Estilos do cabeçalho */
 header {
     background-color: #3498db;
     color: #fff;
     padding: 10px;
-    
 }
 
+img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+/* Estilos da navegação */
 nav {
     background-color: #f4f4f4;
     padding: 10px 0;
@@ -27,32 +35,34 @@ nav a {
 }
 
 nav a:hover {
-    background-color: underline;
+    text-decoration: underline; /* Sublinha o texto ao passar o mouse */
 }
 
+/* Estilos das seções */
 section {
-    padding: 30px;
+    padding: 20px; /* Reduzi um pouco o padding */
     margin: 20px 0;
     background-color: #fff;
-    box-shadow: 0px 6px 5px #0000001a;
+    box-shadow: 0px 2px 5px #0000001a; /* Reduzi a sombra */
     border-radius: 5px;
-  }
+}
 
-img {
-      height: 80px;
-      margin-right: 10px;
-      
-    }
+/* Estilos dos títulos */
+h1, h2 {
+    text-align: center; /* Centralizei os títulos */
+    text-shadow: 1px 1px 2px black; /* Adicionei sombra ao texto */
+}
 
 h1 {
-    text-align: center;
-    font-size: 30px;
+    font-size: 30px; /* Reduzi um pouco o tamanho */
 }
 
 h2 {
     color: #3498db;
+    text-shadow: 1px 1px 2px #336180;
 }
 
+/* Estilos da tabela */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -60,25 +70,33 @@ table {
 
 th, td {
     border: 1px solid black;
-    padding: 8px;
+    padding: 6px; /* Reduzi o padding */
     text-align: center;
 }
 
 th {
     background-color: #3498db;
     color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+#Almoço {
+    background-color: #3498db;
 }
 
+#Vazio {
+    background-color: #3498db;
+}
+
+/* Estilos para telas menores que 600px */
 @media only screen and (max-width: 600px) {
-
-nav a {
-      display: block;
-      padding: 10px 0;
+    nav a {
+        display: block;
+        padding: 10px 0;
+        margin: 0; /* Removi a margem */
     }
+
     table, th, td {
-      padding: 5px;
-      font-size: 12px;
+        padding: 4px; /* Reduzi ainda mais o padding */
+        font-size: 10px; /* Reduzi o tamanho da fonte */
     }
 }
-      
-    
