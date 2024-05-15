@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline; /* Sublinha o texto ao passar o mouse */
+    text-decoration: underline;
 }
 
 /* Estilos das seções */
