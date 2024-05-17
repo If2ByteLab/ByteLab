@@ -38,18 +38,19 @@ section {
 /* Estilos dos títulos */
 h1, h2 {
     text-align: center;
-    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px Black;
 }
 
 h1 {
     font-size: 30px;
     text-shadow: 1px 1px 2px black;
+    margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 24px;
     color: #3498db;
     text-shadow: 1px 1px 2px black;
+    margin-bottom: 20px;
 }
 
 /* Estilos da lista */
