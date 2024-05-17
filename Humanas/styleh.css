@@ -35,24 +35,24 @@ section {
     max-width: 800px;
 }
 
-/* Estilos da lista dentro da seção */
-section ul {
+/* Estilos da lista */
+ul {
     list-style: none;
     padding: 0;
 }
 
-section li {
+li {
     font-size: 20px;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
     transition: all 0.3s ease;
 }
 
-section li:last-child {
+li:last-child {
     border-bottom: none;
 }
 
-section li:hover {
+li:hover {
     background-color: #f9f9f9;
     transform: translateY(-2px);
 }
@@ -74,7 +74,8 @@ h2 {
     text-shadow: 1px 1px 2px black;
     margin-bottom: 20px;
 }
-
+
+
 /* Botão de Voltar */
 .btn-voltar {
     display: block;
