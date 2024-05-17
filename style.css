@@ -10,10 +10,12 @@ body {
 
 /* Estilos do cabeçalho */
 header {
+    text-align: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #3498db;
     color: #fff;
-    justify-content: space-between;
     padding: 10px;
 }
 
@@ -42,21 +44,21 @@ nav a:hover {
 
 /* Estilos das seções */
 section {
-    padding: 20px; /* Reduzi um pouco o padding */
+    padding: 20px;
     margin: 20px 0;
     background-color: #fff;
-    box-shadow: 0px 2px 5px #0000001a; /* Reduzi a sombra */
+    box-shadow: 0px 2px 5px #0000001a;
     border-radius: 5px;
 }
 
 /* Estilos dos títulos */
 h1, h2 {
-    text-align: center; /* Centralizei os títulos */
-    text-shadow: 1px 1px 2px black; /* Adicionei sombra ao texto */
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
 }
 
 h1 {
-    font-size: 30px; /* Reduzi um pouco o tamanho */
+    font-size: 30px;
 }
 
 h2 {
@@ -72,7 +74,7 @@ table {
 
 th, td {
     border: 1px solid black;
-    padding: 6px; /* Reduzi o padding */
+    padding: 6px;
     text-align: center;
 }
 
@@ -81,6 +83,7 @@ th {
     color: #fff;
     text-shadow: 1px 1px 2px black;
 }
+
 #Almoço {
     background-color: #3498db;
 }
@@ -89,82 +92,62 @@ th {
     background-color: #3498db;
 }
 
+/* Estilos para a seção de ícones */
+.icones-areas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.icone-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.icone-area i {
+    font-size: 40px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.icone-area p {
+    font-size: 16px;
+    color: #3498db;
+    text-shadow: 1px 1px 2px #336180;
+}
+
 /* Estilos para telas menores que 600px */
 @media only screen and (max-width: 600px) {
     nav a {
         display: block;
         padding: 10px 0;
-        margin: 0; /* Removi a margem */
+        margin: 0;
     }
 
     table, th, td {
-        padding: 4px; /* Reduzi ainda mais o padding */
-        font-size: 10px; /* Reduzi o tamanho da fonte */
+        padding: 4px;
+        font-size: 10px;
     }
-}
 
-#humanas{
-  background-color: #3498db;
-  
-}
+    .icones-areas {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
 
-#logo-title{
-    display: flex;
-    align-items: center;
-}
+    .icone-area {
+        margin: 5px;
+    }
 
-#logo-title h1{
-    font-size: 30px;
-}
+    .icone-area i {
+        font-size: 30px;
+    }
 
-#btn-linguas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(6, 78, 212);
-    border-radius: 5px;
-    width: 50px;
-    height: 50px;
-    transition: 0.1s ease-in;
-}
-
-#btn-linguas img{
-    margin: 0;
-    width: 20px;
-    transition: 0.1s ease-in;
-}
-
-#btn-linguas:hover{
-    box-shadow: 0 1px 10px 1px #c4c4c4
-}
-
-.tooltip-p {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-    transition: 0.2s ease-out;
-}
-
-.tooltip-p .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-
-    /* Position the tooltip */
-    position: absolute;
-    right: 60px;
-    z-index: 1;
-    transition: 0.2s ease-out;
-}
-
-.tooltiptext{
-    transition: 0.2s ease-out;
-}
-
-.tooltip-p:hover .tooltiptext {
-    visibility: visible;
+    .icone-area p {
+        font-size: 14px;
+    }
 }
