@@ -35,28 +35,6 @@ section {
     max-width: 800px;
 }
 
-/* Estilos da lista */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    font-size: 20px;
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
-    transition: all 0.3s ease;
-}
-
-li:last-child {
-    border-bottom: none;
-}
-
-li:hover {
-    background-color: #f9f9f9;
-    transform: translateY(-2px);
-}
-
 /* Estilos dos títulos */
 h1, h2 {
     text-align: center;
@@ -75,6 +53,27 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* Estilos da lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+    transform: translate(-2px);
+}
 
 /* Botão de Voltar */
 .btn-voltar {

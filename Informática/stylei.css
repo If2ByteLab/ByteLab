@@ -38,19 +38,18 @@ section {
 /* Estilos dos títulos */
 h1, h2 {
     text-align: center;
-    text-shadow: 1px 1px 2px Black;
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 30px;
     text-shadow: 1px 1px 2px black;
-    margin-bottom: 20px;
 }
 
 h2 {
+    font-size: 24px;
     color: #3498db;
     text-shadow: 1px 1px 2px black;
-    margin-bottom: 20px;
 }
 
 /* Estilos da lista */
@@ -63,7 +62,7 @@ li {
     font-size: 20px;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
 li:last-child {
@@ -72,7 +71,7 @@ li:last-child {
 
 li:hover {
     background-color: #f9f9f9;
-    transform: translateY(-2px);
+    transform: translate(-2px);
 }
 
 /* Botão de Voltar */
