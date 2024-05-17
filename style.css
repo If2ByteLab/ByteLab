@@ -10,8 +10,10 @@ body {
 
 /* Estilos do cabeçalho */
 header {
+    display: flex;
     background-color: #3498db;
     color: #fff;
+    justify-content: space-between;
     padding: 10px;
 }
 
@@ -99,4 +101,70 @@ th {
         padding: 4px; /* Reduzi ainda mais o padding */
         font-size: 10px; /* Reduzi o tamanho da fonte */
     }
+}
+
+#humanas{
+  background-color: #3498db;
+  
+}
+
+#logo-title{
+    display: flex;
+    align-items: center;
+}
+
+#logo-title h1{
+    font-size: 30px;
+}
+
+#btn-linguas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 78, 212);
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    transition: 0.1s ease-in;
+}
+
+#btn-linguas img{
+    margin: 0;
+    width: 20px;
+    transition: 0.1s ease-in;
+}
+
+#btn-linguas:hover{
+    box-shadow: 0 1px 10px 1px #c4c4c4
+}
+
+.tooltip-p {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    transition: 0.2s ease-out;
+}
+
+.tooltip-p .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    right: 60px;
+    z-index: 1;
+    transition: 0.2s ease-out;
+}
+
+.tooltiptext{
+    transition: 0.2s ease-out;
+}
+
+.tooltip-p:hover .tooltiptext {
+    visibility: visible;
 }
