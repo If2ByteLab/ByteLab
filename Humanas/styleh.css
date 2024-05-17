@@ -74,29 +74,7 @@ h2 {
     text-shadow: 1px 1px 2px black;
     margin-bottom: 20px;
 }
-
-/* Estilos da lista */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    font-size: 20px;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
-    transition: background-color 0.3s ease;
-}
-
-li:last-child {
-    border-bottom: none;
-}
-
-li:hover {
-    background-color: #f9f9f9;
-}
-
-
+
 /* Botão de Voltar */
 .btn-voltar {
     display: block;
