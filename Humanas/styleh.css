@@ -35,6 +35,28 @@ section {
     max-width: 800px;
 }
 
+/* Estilos da lista dentro da seção */
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    font-size: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    transition: all 0.3s ease;
+}
+
+section li:last-child {
+    border-bottom: none;
+}
+
+section li:hover {
+    background-color: #f9f9f9;
+    transform: translateY(-2px);
+}
+
 /* Estilos dos títulos */
 h1, h2 {
     text-align: center;
