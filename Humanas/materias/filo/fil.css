@@ -2,49 +2,33 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: whitesmoke; /* Preto */
-    color: #fff; /* Branco */
+    background-color: whitesmoke;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto; /* Centraliza o conteúdo */
+    max-width: 100vw;
+    margin: 0 auto;
 }
 
 header {
-    background-color: #007bff; /* Azul */
+    background-color: #8e44ad;
+    margin: auto;
     padding: 20px;
-    text-align: center; /* Centraliza o conteúdo */
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo {
-    margin: 0;
-    font-size: 36px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+#buscar {
+    cursor: pointer;
+    border-radius: 5px;
 }
-
-header form {
-    margin-top: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #007bff; /* Azul */
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
+#search-bar {
+    border-radius: 5px;
+    padding: 4px;
 }
 
 main {
@@ -52,21 +36,25 @@ main {
 }
 
 section {
-    background-color: white; /* Cinza escuro */
+    background-color: white;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px black;
+    max-width: 800px;
+    margin: 20px auto;
 }
 
 section h2 {
-    color: #007bff; /* Azul */
+    color: #8e44ad;
 }
 
 section p {
-    color: #ccc; /* Cinza claro */
+    color: #ccc;
 }
 
 section a {
-    color: #007bff; /* Azul */
+    color: #8e44ad;
     text-decoration: none;
     margin-right: 10px;
 }
@@ -75,23 +63,18 @@ section a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background-color: #007bff; /* Azul */
-    color: #fff; /* Branco */
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+#downloads{
+  background-color:white;
 }
-img {
-    width: 75px; /* Define a largura para 200 pixels */
-    height: 50px; /* Define a altura para 150 pixels */
+
+.btn-voltar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-.apostila {
-        display: flex;
-        align-items: center;
-    }
-    .apostila img {
-        margin-right: 10px;
-    }
