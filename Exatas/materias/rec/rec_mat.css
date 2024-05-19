@@ -41,6 +41,8 @@ section {
     margin-bottom: 20px;
     border-radius: 20px;
     box-shadow: 1px 1px 3px black;
+    max-width: 800px;
+    margin: 20px auto;
 }
 
 section h2 {
