@@ -7,46 +7,36 @@
     <link rel="stylesheet" href="so.css">
 </head>
 <body>
-
-<div class="container">
-
-<header>
-    <h1 class="logo">Sistema operacional</h1>
-    <form id="search-form">
-        <input type="text" id="search-bar" placeholder="Pesquisar...">
-        <button type="submit">Buscar</button>
-    </form>
-</header>
-
-<main>
-   
-    <section id="atividade1">
-        <h2>Atividade 1</h2>
-        <p>Descrição da atividade...</p>
-        <a href="atividade1.pdf">Download da atividade</a>
-       
-        <!-- Adicione mais conteúdo conforme necessário -->
-    </section>
-
-    <section id="atividade2">
-        <h2>Atividade 2</h2>
-        <p>Descrição da atividade...</p>
-        <a href="atividade2.pdf">Download da atividade</a>
-        <!-- Adicione mais conteúdo conforme necessário -->
-    </section>
-    
- <section>
-    <h2>Apostilas para Download</h2>
-    <p>Apostila: Sistema s operacionais</p>
-    <div class="apostila">
-        <img src="capa_sistema-operacional.jpg" alt="Capa da apostila">
-        <a href="__sistemas_operacionais.indb.pdf">clique aqui</a>
+    <div class="container">
+        <header>
+            <form id="search-form">
+                <h1>Sistema Operacional</h1>
+                <input type="text" id="search-bar" placeholder="Pesquisar...">
+                <button type="submit" id="buscar">Buscar</button>
+            </form>
+        </header>
     </div>
-    <!-- Adicione mais conteúdo conforme necessário -->
-</section>
-</main>
-
-</div><!-- .container -->
-<script src="so.js"></script>
+        <main>
+            <section id="atividade1">
+                <h2>Atividade 1</h2>
+                <p>Descrição da atividade...</p>
+                <a href="atividade1.pdf">Download da atividade</a>
+            </section>
+            <section id="atividade2">
+                <h2>Atividade 2</h2>
+                <p>Descrição da atividade...</p>
+                <a href="atividade2.pdf">Download da atividade</a>
+            </section>
+    <section>
+        <h2>Downloads de Apostilas</h2>
+        <ul>
+            <li><a href="Apostila 1">Apostila 1</a></li>
+            <li><a href="Apostila 2">Apostila 2</a></li>
+        </ul>
+    </section>
+    </main>
+    </div>
+    <button class="btn-voltar" onclick="window.history.back()">Voltar</button>
+    <script src="so.js"></script>
 </body>
 </html>
