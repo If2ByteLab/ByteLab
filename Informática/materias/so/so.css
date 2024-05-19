@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: whitesmoke; /* Preto */
-    color: #fff; /* Branco */
+    color: white; /* Branco */
 }
 
 .container {
@@ -39,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #007bff; /* Azul */
+    color: #007bf; 
     text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ main {
 }
 
 section {
-    background-color: white; /* Cinza escuro */
+    background-color: white;
     padding: 20px;
     margin-bottom: 20px;
 }
