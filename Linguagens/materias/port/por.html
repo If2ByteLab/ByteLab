@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matemática</title>
+    <title>Português</title>
     <link rel="stylesheet" href="por.css">
 </head>
+
 <body>
 
-<div class="container">
+    <div class="container">
 
-<header>
-    <h1 class="logo">Português</h1>
-    <form id="search-form">
-        <input type="text" id="search-bar" placeholder="Pesquisar...">
-        <button type="submit">Buscar</button>
-    </form>
-</header>
+        <header>
+            <form id="search-form">
+                <h1>Português</h1>
+                <input type="text" id="search-bar" placeholder="Pesquisar...">
+                <button type="submit" id="buscar">Buscar</button>
+            </form>
+        </header>
 
-<main>
-   
-    <section id="atividade1">
-        <h2>Atividade 1</h2>
-        <p>Descrição da atividade...</p>
-        <a href="atividade1.pdf">Download da atividade</a>
-        <img src="atividade1.jpg" alt="Imagem da atividade">
-        <!-- Adicione mais conteúdo conforme necessário -->
-    </section>
+        <main>
 
-    <section id="atividade2">
-        <h2>Atividade 2</h2>
-        <p>Descrição da atividade...</p>
-        <a href="atividade2.pdf">Download da atividade</a>
-        <img src="atividade2.jpg" alt="Imagem da atividade">
-        <!-- Adicione mais conteúdo conforme necessário -->
-    </section>
-    
-     <section id="downloads">
-        <h2>Downloads de Apostilas</h2>
-        <ul>
-            <li>
-                <a href="apostila1.pdf">Apostila 1</a>
-            </li>
-            <li>
-                <a href="apostila2.pdf">Apostila 2</a>
-            </li>
-            <!-- Adicione mais apostilas conforme necessário -->
-        </ul>
-    </section>
-    
-</main>
+            <section id="atividade1">
+                <h2>Atividade 1</h2>
+                <p>Descrição da atividade...</p>
+                <a href="atividade1.pdf" target="_blank" rel="External">Download da atividade</a>
+            </section>
 
-</div><!-- .container -->
-<script src="por.js"></script>
+            <section id="atividade2">
+                <h2>Atividade 2</h2>
+                <p>Descrição da atividade...</p>
+                <a href="atividade2.pdf" target="_blank" rel="External">Download da atividade</a>
+            </section>
+
+            <section id="downloads">
+                <h2>Downloads de Apostilas</h2>
+                <ul type="none">
+                    <li>
+                        <a href="apostila1.pdf" target="_blank" rel="External">Apostila 1</a>
+                    </li>
+                    <li>
+                        <a href="apostila2.pdf" target="_blank" rel="External">Apostila 2</a>
+                    </li>
+                </ul>
+            </section>
+
+        </main>
+
+    </div>
+    <button class="btn-voltar" onclick="window.history.back()">Voltar</button>
+    <script src="por.js"></script>
 </body>
+
 </html>

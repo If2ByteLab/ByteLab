@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matemática</title>
+    <title>Recomposição de Português</title>
     <link rel="stylesheet" href="rec_por.css">
 </head>
+
 <body>
 
-<div class="container">
+    <div class="container">
 
-<header>
-    <h1 class="logo">Recomposição de Português</h1>
-    <form id="search-form">
-        <input type="text" id="search-bar" placeholder="Pesquisar...">
-        <button type="submit">Buscar</button>
-    </form>
-</header>
+        <header>
+            <form id="search-form">
+                <h1>Recomposição de Português</h1>
+                <input type="text" id="search-bar" placeholder="Pesquisar...">
+                <button type="submit" id="buscar">Buscar</button>
+            </form>
+        </header>
 
-<main>
-   
-    <section id="atividade1">
-        <h2>Atividade 1</h2>
-        <p>Descrição da atividade...</p>
-        <div class="atividade">
-        <a href="ATIVIDADE 3 E 4 - MATERIAL DO ESTUDANTE - 2ª SÉRIE.pdf">Download da atividade</a>
-        <img src="capa_recomposicao_3-4.png" alt="Imagem da atividade">
-        <!-- Adicione mais conteúdo conforme necessário -->
-        </div>
-    </section>
+        <main>
 
-    <section id="atividade2">
-        <h2>Atividade 2</h2>
-        <p>Descrição da atividade...</p>
-        <a href="atividade2.pdf">Download da atividade</a>
-        <img src="atividade2.jpg" alt="Imagem da atividade">
-        <!-- Adicione mais conteúdo conforme necessário -->
-    </section>
-    
-    <section>
-    <h2>Apostilas para Download</h2>
-    <p>Descrição da apostila </p>
-    <div class="apostila">
-        <img src="" alt="">
-        <a href=""></a>
+            <section id="atividade1">
+                <h2>Atividade 1</h2>
+                <p>Descrição da atividade...</p>
+                <div class="atividade">
+                    <a href="" target="_blank" rel="External">Download da atividade</a>
+                </div>
+            </section>
+
+            <section id="atividade2">
+                <h2>Atividade 2</h2>
+                <p>Descrição da atividade...</p>
+                <a href="atividade2.pdf" target="_blank" rel="External">Download da atividade</a>
+            </section>
+
+            <section>
+                <h2>Apostilas para Download</h2>
+                <ul type="none">
+                    <li>
+                        <a href="apostila1.pdf" target="_blank" rel="External">Apostila 1</a>
+                    </li>
+                    <li>
+                        <a href="apostila2.pdf" target="_blank" rel="External">Apostila 2</a>
+                    </li>
+                </ul>
+
+        </main>
+
     </div>
-    
-</main>
-
-</div><!-- .container -->
-<script src="rec_por.js"></script>
+    <button class="btn-voltar" onclick="window.history.back()">Voltar</button>
+    <script src="rec_por.js"></script>
 </body>
+
 </html>
