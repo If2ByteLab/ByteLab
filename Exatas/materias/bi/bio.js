@@ -72,4 +72,3 @@ function editDistance(string1, string2) {
     }
     return costs[string2.length];
 }
-window.alert ("Não há material no momento!")
